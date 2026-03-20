@@ -1,6 +1,6 @@
 # VEGA — Volatility & Earnings Guidance Analyzer
 
-> *Do earnings call transcripts contain predictive signals about short-term stock price movements? VEGA is built to find out.*
+> *Do concall transcripts of NIFTY 50 companies contain predictive signals about short-term price movements? VEGA is built to find out.*
 
 ---
 
@@ -8,7 +8,7 @@
 
 Every quarter, executives at S&P 100 companies spend 60–90 minutes on earnings calls — choosing their words carefully. They hedge. They signal. They bury risk disclosures in subordinate clauses and front-load confidence where confidence may not be warranted.
 
-VEGA is an NLP pipeline that reads those transcripts the way a quant analyst would — extracting sentiment, forward guidance signals, and risk flags at scale — then tests whether those signals have statistically meaningful predictive power over 3-day abnormal stock returns.
+VEGA is an NLP pipeline that reads those transcripts the way a quant analyst would — — extracting sentiment, forward guidance signals, and risk flags at scale — then tests whether those signals have statistically meaningful predictive power over 3-day abnormal stock returns for NIFTY 50 listed companies.
 
 The output is a live, interactive dashboard where you can look up any covered company, see its earnings sentiment history, inspect flagged risk sentences, and read an AI-generated analyst note — all updated each earnings cycle.
 
@@ -36,7 +36,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 ## Methodology
 
 ### 1. Data collection
-Earnings call transcripts are sourced from SEC EDGAR's full-text search API (8-K filings). Price data is fetched via `yfinance`. The universe covers a subset of S&P 100 companies across tech, financials, healthcare, and consumer sectors — targeting 80–100 earnings events for the backtest.
+Earnings concall transcripts are sourced from BSE corporate filings (Analyst / Investor Meet category). PDF transcripts are extracted using `pdfplumber`. Price data is fetched via `nsepy` for NSE-listed stocks. The universe covers NIFTY 50 companies with English concall transcripts — targeting 80–100 earnings events across sectors for the backtest.
 
 ### 2. NLP signal extraction
 Each transcript is processed through a three-layer NLP stack:
@@ -61,27 +61,27 @@ The composite score is regressed against 3-day abnormal returns (stock return mi
 ## Architecture
 
 ```
-SEC EDGAR API  ──┐
-                 ├──► Scraper & parser ──► SQLite DB
-yfinance API   ──┘                              │
-                                                ▼
-                              ┌─────────────────────────────┐
-                              │       NLP Signal Engine      │
-                              │  FinBERT · BART · MiniLM    │
-                              │  Gemini Flash (narratives)  │
-                              └──────────────┬──────────────┘
-                                             │
-                                             ▼
-                                   Composite scorer
-                                             │
-                               ┌─────────────────────┐
-                               │   OLS backtest       │
-                               │   R² · p-value       │
-                               └──────────┬──────────┘
-                                          │
-                                          ▼
-                              Plotly Dash dashboard
-                              [deployed on Render.com]
+BSE corporate filings     ──┐
+                            ├──► Scraper & parser ──► SQLite DB
+NSE price data (nsepy)    ──┘                              │
+                                                           ▼
+                                           ┌─────────────────────────────┐
+                                           │      NLP Signal Engine      │
+                                           │  FinBERT · BART · MiniLM    │
+                                           │  Gemini Flash (narratives)  │
+                                           └──────────────┬──────────────┘
+                                                          │
+                                                          ▼
+                                                  Composite scorer
+                                                          │
+                                               ┌─────────────────────┐
+                                               │   OLS backtest      │
+                                               │   R² · p-value      │
+                                               └──────────┬──────────┘
+                                                          │
+                                                          ▼
+                                               Plotly Dash dashboard
+                                              [deployed on Render.com]
 ```
 
 ---
@@ -148,8 +148,9 @@ python dashboard/app.py
 | Zero-shot classifier | facebook/bart-large-mnli | Guidance & risk category classification |
 | Embeddings | all-MiniLM-L6-v2 | Risk flag cosine similarity |
 | Narrative generation | Google Gemini Flash | AI analyst note generation (free tier) |
-| Price data | yfinance | Historical OHLCV + abnormal return calculation |
-| Transcript source | SEC EDGAR EFTS API | Official 8-K earnings call filings |
+| Price data | nsepy | NSE/BSE historical OHLCV + abnormal return calculation |
+| Transcript source | BSE corporate filings | Official concall transcript PDFs |
+| PDF extraction | pdfplumber | Clean text extraction from concall PDF filings |
 | Storage | SQLite + pandas | Transcript, score, and narrative cache |
 | Dashboard | Plotly Dash | Interactive web application |
 | Statistical analysis | statsmodels + scipy | OLS regression, p-values, confidence intervals |
