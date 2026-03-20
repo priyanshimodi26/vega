@@ -1,0 +1,2 @@
+data/vega.db filter=lfs diff=lfs merge=lfs -text
+research_papers/*.pdf filter=lfs diff=lfs merge=lfs -text
