@@ -1,0 +1,13 @@
+transformers
+torch
+yfinance
+pandas
+requests
+beautifulsoup4
+plotly
+dash
+google-generativeai
+scikit-learn
+sentence-transformers
+statsmodels
+scipy
