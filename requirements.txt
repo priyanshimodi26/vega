@@ -17,3 +17,5 @@ gunicorn
 python-dotenv
 tqdm
 numpy
+selenium
+webdriver-manager
