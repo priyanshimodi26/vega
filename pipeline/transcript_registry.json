@@ -1,10 +1,1522 @@
 [
   {
+    "ticker": "ASIANPAINT",
+    "bse_code": "500820",
+    "company_name": "Asian Paints Ltd",
+    "earnings_date": "2024-11-14",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_14112024191535_SEIntimationTranscriptH1FY25.pdf"
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "bse_code": "500820",
+    "company_name": "Asian Paints Ltd",
+    "earnings_date": "2025-02-07",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07022025193735_TranscriptQ3FY25.pdf"
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "bse_code": "500820",
+    "company_name": "Asian Paints Ltd",
+    "earnings_date": "2025-05-12",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_12052025154734_SEINTIMATIONTRANSCRIPT080525.pdf"
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "bse_code": "500820",
+    "company_name": "Asian Paints Ltd",
+    "earnings_date": "2025-11-18",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_18112025120322_SEIntimationTranscriptQ2FY26Nov2025.pdf"
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "bse_code": "500820",
+    "company_name": "Asian Paints Ltd",
+    "earnings_date": "2026-02-02",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02022026131104_SE_intimation_Transcript_Q3FY26_Jan2026_signed.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2024-01-30",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_30012024184605_Transcript.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2024-04-29",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_29042024190312_Transcript29042024.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2024-07-30",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_30072024162848_EarningCallTranscriptQ1FY25.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2024-10-23",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_23102024210445_SEIntimationQ2FY25EarningsCallTranscriptSigned.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2025-01-22",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_22012025110554_SEIntimationQ3FY25EarningsCallTranscriptSigned.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2025-05-01",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_01052025172723_SEIntimationQ4FY25EarningsCallTranscriptSigdn.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2025-07-23",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_23072025222143_SEIntimationQ1FY26EarningsCallTranscriptSigned.pdf"
+  },
+  {
+    "ticker": "AXISBANK",
+    "bse_code": "532215",
+    "company_name": "Axis Bank Ltd",
+    "earnings_date": "2026-02-02",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_02022026222132_SEIntimationQ3FY26EarningsCallTranscriptSigned.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2023-05-22",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_22052023173903_TranscriptQ4Final.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2023-08-09",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_09082023183914_TranscriptFinal.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2023-11-06",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112023193945_TranscriptIntimationQ2_2023.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2024-02-12",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12022024192539_TranscriptIntimationQ324Signed.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2024-05-21",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_21052024215233_BAL_EarningsCallTranscript.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2024-08-12",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12082024202416_BAL_Transcript_Intimation_Q1_25.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2024-11-06",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112024175715_BAL_Earnings_Call_Transcript.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-01-17",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_17012025082627_SE_17012025.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-02-14",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14022025195045_BAL_Transcript_Q3FY25s.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-04-26",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_26042025220724_SE_Audioandtranscript.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-05-19",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_19052025170633_Airtel_Transcript14052025.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-07-20",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_20072025132946_SE_20072025.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-08-11",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_11082025190130_BAL_EarningCallTranAug.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-10-19",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2025-11-11",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_11112025164840_EarningCallTranscriptAirtel.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2026-01-18",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_18012026235015_SE_Transcript.pdf"
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "bse_code": "532454",
+    "company_name": "Bharti Airtel Ltd",
+    "earnings_date": "2026-02-13",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_13022026181938_AirtelEarningCallTranscript.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2023-05-15",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_15052023162557_SEIntimationTranscriptofEarningscall.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2023-07-31",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_31072023183236_SEIntimationTranscriptofEarningscall.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2023-11-01",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_01112023144228_SEIntimationTranscriptofearningcallrecordings.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2024-02-05",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_05022024181701_SEIntimation_Transcriptofearningcallrecordings.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2024-05-13",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_13052024213414_SE_intimation_Transcript_earning_call_Q4FY2024.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2024-07-02",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_02072024224625_SEIntimationTranscript_June22262024.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2024-08-01",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_01082024224129_SEIntimation_TranscriptEarningCall.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2024-11-11",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_11112024220512_SE_Intimation_TranscriptOfEarningCallRecordings_1.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2025-01-29",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_29012025201944_SEIntimationTranscriptofEarningCallRecordings.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2025-05-15",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_15052025205121_SE_Intimation_Transcript_of_earning_call_recordings.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2025-07-29",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_29072025230357_SE_Intimation_Transcript_of_earning_call_recordings.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2025-10-30",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_30102025230150_SE_Intimation_Transcript_of_earning_call_1.pdf"
+  },
+  {
+    "ticker": "DRREDDY",
+    "bse_code": "500124",
+    "company_name": "Dr Reddy's Laboratories Ltd",
+    "earnings_date": "2026-01-27",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_27012026224754_SE_intimation_transcript_of_earnings_call_signed.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2023-04-25",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_25042023145107_AudioTranscript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2023-07-18",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_18072023111310_AudioTranscript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2023-10-17",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_17102023182524_AudioTranscript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2024-01-16",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_16012024181049_AudioTranscript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2024-04-30",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_30042024111802_Audio_Transcript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2024-07-17",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_17072024133244_Audio_Transcript.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2024-10-18",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_18102024102122_AudioTranscript14Oct2024.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2025-01-15",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_15012025191408_TranscriptEarningsCall.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2025-04-25",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_25042025221345_TranscriptEarningsCall.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2025-07-17",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_17072025141610_TranscriptEarningsCall.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2025-10-17",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_17102025215315_TranscriptEarningsCall-signed.pdf"
+  },
+  {
+    "ticker": "HCLTECH",
+    "bse_code": "532281",
+    "company_name": "HCL Technologies Ltd",
+    "earnings_date": "2026-01-16",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_16012026204314_TranscriptEarningsCall.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2023-04-18",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_18042023173957_SEintimation18042023.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2023-07-22",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_22072023140347_SEIntimationTranscript.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2023-10-21",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_21102023220738_SEIntimationEarning21102023.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2024-01-23",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23012024125003_SEIntimationTranscriptofearningscall16Jan2024.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2024-04-26",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_26042024171259_SEIntimation_Transcript.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2024-07-25",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_25072024200056_SE_Intimatio_Transcript.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2024-10-25",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_25102024160334_SETranscriptofEarnings19102024.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2025-01-29",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_29012025154923_SE_Intimation_Earnings_call.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2025-04-24",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24042025175629_SETranscript19042025.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2025-07-25",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_25072025214442_SEintimationTranscriptofearningscall19jul2025Cover.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2025-10-27",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102025185000_Transcript.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2026-01-23",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23012026155630_SEintimationTranscriptofearningscall17_Jan_2026.pdf"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "bse_code": "500180",
+    "company_name": "HDFC Bank Ltd",
+    "earnings_date": "2026-03-19",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_19032026221513_SEintimationTranscriptofearningscall19Mar2026.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2023-05-04",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_04052023231515_TranscriptofEarningsCall27042023signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2023-07-26",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_26072023215826_TranscriptOfEarningsCall26072023.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2023-10-26",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_26102023173418_SEIntimationTranscript26102023Signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2024-01-25",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_25012024184535_SEIntimationTranscript19012024Signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2024-04-30",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_30042024195431_TranscriptofEarningsCall24042024.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2024-07-29",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_29072024185157_SEIntimationEarningsCallTranscriptSigned.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2024-10-29",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_29102024192209_SEIntimationTranscript29102024Signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2025-01-29",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_29012025222021_SEIntimationTranscript29012025signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2025-04-30",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_30042025212337_ECTranscriptSigned30042025signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2025-08-07",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_07082025150040_SEIntimationRTranscriptsigned.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2025-10-29",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_29102025172538_TranscriptIntimation_signed.pdf"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "bse_code": "500696",
+    "company_name": "Hindustan Unilever Ltd",
+    "earnings_date": "2026-02-19",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_19022026191246_SEIntimationTranscript19022026signed.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2023-04-28",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_28042023101358_NSEBSE.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2023-07-28",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_28072023134808_NSEBSE_Transcript.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2023-10-27",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_27102023173923_NSEBSE27102023.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2024-01-25",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_25012024174338_NSEBSE_25012024.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2024-05-06",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_06052024121817_NSEBSE_06052024.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2024-08-02",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_02082024192631_NSEBSE_02082024.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2024-11-04",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK_04112024184917_BSENSE.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2025-01-31",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK11_31012025181541_NSEBSE_signed.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2025-04-25",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK11_25042025185017_NSE_BSE.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2025-07-24",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24072025192131_NSEBSE.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2025-10-24",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24102025180135_NSEBSE.pdf"
+  },
+  {
+    "ticker": "ICICIBANK",
+    "bse_code": "532174",
+    "company_name": "ICICI Bank Ltd",
+    "earnings_date": "2026-01-22",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_22012026172959_NSEBSE.pdf"
+  },
+  {
     "ticker": "INFY",
     "bse_code": "500209",
     "company_name": "Infosys Ltd",
-    "earnings_date": "2026-02-17",
-    "fiscal_quarter": "AI Day 2026",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_24022026183902_AIDayTranscript17022026.pdf"
+    "earnings_date": "2023-04-18",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/INFY_18042023205807_Transcripts_April132023.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2023-05-02",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_02052023191822_SEintimationTranscriptoftheEarningsConferenceCall29042023.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2023-07-26",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_26072023181304_SEintimationTranscriptoftheEarningsConferenceCall30062023.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2023-10-25",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_25102023195948_TranscriptBOct252023.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2024-01-25",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_25012024125434_TranscriptBMJan202024.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2024-05-09",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_09052024191410_SEintimationTranscriptoftheEarningsConferenceCall04052024_signed.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2024-07-26",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_26072024180751_Transcript_20072024_signed.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2024-10-24",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_24102024174850_Transcript.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2025-05-08",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_08052025210658_TranscroptofearningMay032025.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2025-08-01",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_01082025202954_KMBLTranscriptofcall.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2025-10-30",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_30102025173715_SEintimationTranscriptoftheEarningsConferenceCall25102025.pdf"
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "bse_code": "500247",
+    "company_name": "Kotak Mahindra Bank Ltd",
+    "earnings_date": "2026-01-30",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_30012026222638_TranscriptJanuary2026.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2023-05-04",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_04052023162241_Transcript.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2023-08-04",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_04082023155545_Transcript.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2023-11-02",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_02112023220422_Transcript.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2024-02-06",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_06022024183251_TranscriptQ3signed.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2024-05-03",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_03052024212206_Covering_Transcript_Q4_FY_2024_signed.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2024-08-06",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_06082024195539_Transcript_Q1_FY_2025.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2024-11-05",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_05112024211033_Transcript_initimation_Q2_FY_2024_25.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2025-02-04",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_04022025201649_Intimation_Transacript_of_investors_call.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2025-05-01",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01052025095249_Transcript_25Apr2025.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2025-08-06",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_06082025224719_STxIntimation_Transcript31July2025.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2025-11-03",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf"
+  },
+  {
+    "ticker": "MARUTI",
+    "bse_code": "532500",
+    "company_name": "Maruti Suzuki India Ltd",
+    "earnings_date": "2026-02-02",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf"
+  },
+  {
+    "ticker": "NESTLEIND",
+    "bse_code": "500790",
+    "company_name": "Nestle India Ltd",
+    "earnings_date": "2023-10-31",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND_31102023173040_BSENSETRANSCRIPTsigned.pdf"
+  },
+  {
+    "ticker": "NESTLEIND",
+    "bse_code": "500790",
+    "company_name": "Nestle India Ltd",
+    "earnings_date": "2025-02-07",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_07022025185953_BSENSETranscriptInstitutionalInvestorsMeetofQ3FY2425signed.pdf"
+  },
+  {
+    "ticker": "RELIANCE",
+    "bse_code": "500325",
+    "company_name": "Reliance Industries Ltd",
+    "earnings_date": "2023-04-22",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/RELIANCE_22042023120923_TranscriptsonAFR.pdf"
+  },
+  {
+    "ticker": "RELIANCE",
+    "bse_code": "500325",
+    "company_name": "Reliance Industries Ltd",
+    "earnings_date": "2023-07-22",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/RELIANCE_22072023093437_Transcripts22072023.pdf"
+  },
+  {
+    "ticker": "RELIANCE",
+    "bse_code": "500325",
+    "company_name": "Reliance Industries Ltd",
+    "earnings_date": "2024-04-23",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/RELIANCE_23042024065723_AVRandTranscripts23042024.pdf"
+  },
+  {
+    "ticker": "RELIANCE",
+    "bse_code": "500325",
+    "company_name": "Reliance Industries Ltd",
+    "earnings_date": "2024-07-20",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/RELIANCE_20072024100219_Transcript.pdf"
+  },
+  {
+    "ticker": "RELIANCE",
+    "bse_code": "500325",
+    "company_name": "Reliance Industries Ltd",
+    "earnings_date": "2024-10-15",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/RELIANCE_15102024082642_SETranscriptAV.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2023-05-24",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_24052023190540_bsensesign.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2023-08-09",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_09082023192133_BSE_NSEInv_Meet_Transcript_04082023_09082023.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2023-11-10",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_10112023171008_BSE_NSE_InvestorTranscript04112023_10112023.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2024-02-08",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_08022024193318_BSE_NSE_InvestorTranscript_030224_08022024.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2024-05-16",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_16052024183434_BSE_NSE_InvestorTranscript_16052024Sign.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2024-08-09",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_09082024192214_BSE_NSE_Transcript_09082024.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2024-11-16",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_16112024183957_BSE_NSE_InvestorTranscript_16112024.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2025-02-13",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_13022025182410_BSE_NSE_InvestorTranscript_13022025.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2025-05-09",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_09052025182806_BSE_NSE_InvestorTranscript_09052025.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2025-08-16",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_16082025162954_Transcript.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2025-11-12",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN1_12112025181248_SEdsctranscript.pdf"
+  },
+  {
+    "ticker": "SBIN",
+    "bse_code": "500112",
+    "company_name": "State Bank of India",
+    "earnings_date": "2026-02-13",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SBIN_13022026154742_BSE_NSE_InvestorTranscript_13022026.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2023-05-31",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_31052023141827_IntimationSE20230531EarningsCallTranscriptQ4FY23Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2023-08-09",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_09082023150319_IntimationSE20230809EarningsCallTranscriptQ1FY24_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2023-11-08",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_08112023180609_IntimationSE202301108EarningsCallTranscriptQ2FY24_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2024-02-06",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_06022024183142_IntimationSE20240206EarningsCallTranscriptQ3FY24_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2024-05-29",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_29052024155338_IntimationSE20240529EarningsCallTranscriptQ4FY24_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2024-08-07",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_07082024190147_IntimationSE20240807EarningsCallTranscriptQ1FY25_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2025-02-06",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_06022025151621_IntimationSE20250206EarningsCallTranscriptQ3FY25_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2025-05-29",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_29052025172429_IntimationSE20250529EarningsCallTranscriptQ4FY25_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2025-08-06",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_06082025165115_IntimationSE20250806EarningsCallTranscriptQ1FY26_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2025-11-11",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_11112025155629_IntimationSE20251111EarningsCallTranscriptQ2FY26_Signed.pdf"
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "bse_code": "524715",
+    "company_name": "Sun Pharmaceutical Industries Ltd",
+    "earnings_date": "2026-02-04",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04022026194259_IntimationSE20260204EarningsCallTranscriptQ3FY26_Signed.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2023-05-19",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19052023160023_NSEBSELETTERFINAL.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2023-08-01",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_01082023141210_transcript.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2023-11-08",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_08112023190919_nsebseletterfinal.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2024-02-08",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_08022024184227_nsebseletter.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2024-05-16",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_16052024170307_NSEBSELETTER.pdf"
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "bse_code": "500570",
+    "company_name": "Tata Motors Ltd",
+    "earnings_date": "2024-08-07",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_07082024183426_NSEBSETRANSCRIPT.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2023-04-13",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_13042023193823_SEinttranscript13042023signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2023-07-14",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_14072023162047_SEINT14072023signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2023-10-13",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_13102023190220_SEINT13102023Finalsigned.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2024-01-16",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_16012024204442_SEInt16012024.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2024-04-17",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_17042024202049_SEInt17042024.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2024-07-16",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_16072024200301_SEInt16072024Signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2024-10-14",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_14102024190406_SEInt14102024_signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-01-13",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_13012025180506_SEInt13012025signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-04-12",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_1204202517480_SEInt12042025TRsigned.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-07-14",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14072025190635_SEint14172025_signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-10-15",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102025151659_SE_Intimation_signed.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-11-04",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_04112025165310_SEInt04112025.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2025-12-23",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_23122025195649_Signed_SEInt_letter.pdf"
+  },
+  {
+    "ticker": "TCS",
+    "bse_code": "532540",
+    "company_name": "Tata Consultancy Services Ltd",
+    "earnings_date": "2026-01-16",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_16012026163741_Signed_SEIntimation.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2023-05-05",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_05052023190817_SEintimationEarningcalltranscript05052023F.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2023-07-31",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_31072023172608_SEintimationofEarningCallTarnscript30062023.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2023-10-30",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_30102023184103_Intimationforearningcalltranscript2510.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2024-01-29",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_29012024180535_Intimationforearningcalltranscript290124F.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2024-05-02",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_02052024195114_Intimationforearningcalltranscript.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2024-07-30",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_30072024190243_SEintimationforearningcalltranscriptFY25.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2024-10-23",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_23102024183703_SEintimationforearningcalltranscript_Signed.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2025-01-21",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TECHM_21012025191433_Intimationforearningcalltranscript_signed.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2025-04-30",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Ruchie_khanna_30042025200150_IntimationforTransacriptofearningsmeetQ4_Signed.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2025-07-21",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_21072025170928_IntimationfortransacriptQ1FY26.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2025-10-17",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_17102025210802_IntimationoftranscriptQ2Fy26_S.pdf"
+  },
+  {
+    "ticker": "TECHM",
+    "bse_code": "532755",
+    "company_name": "Tech Mahindra Ltd",
+    "earnings_date": "2026-01-20",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_20012026173300_Signed_-_Intimation_Transacript_1.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2023-05-02",
+    "fiscal_quarter": "Q1FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_02052023174330_Transcript_InvestorMeet.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2023-07-15",
+    "fiscal_quarter": "Q2FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_15072023105355_Transcript_Q1.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2023-10-20",
+    "fiscal_quarter": "Q3FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_20102023172445_Q2_Transcript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2024-01-16",
+    "fiscal_quarter": "Q4FY24",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_16012024191927_Reg30TranscriptoftheAnalystmeeting.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2024-04-24",
+    "fiscal_quarter": "Q1FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_24042024154542_Reg30SEIntimation24042024.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2024-07-22",
+    "fiscal_quarter": "Q2FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_22072024164242_SEIntimationEarningscalltranscript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2024-10-18",
+    "fiscal_quarter": "Q3FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_18102024180103_SEIntimationTranscript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2025-01-20",
+    "fiscal_quarter": "Q4FY25",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_20012025205931_SEIntimationtranscript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2025-04-17",
+    "fiscal_quarter": "Q1FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Cslogin_17042025164940_SEIntimationTranscript17042025.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2025-07-18",
+    "fiscal_quarter": "Q2FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Cslogin_18072025182144_SEIntimationAnalystcalltranscript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2025-10-17",
+    "fiscal_quarter": "Q3FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_17102025155144_SEIntimationTranscript.pdf"
+  },
+  {
+    "ticker": "WIPRO",
+    "bse_code": "507685",
+    "company_name": "Wipro Ltd",
+    "earnings_date": "2026-01-19",
+    "fiscal_quarter": "Q4FY26",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_19012026185149_SEIntimation19012026.pdf"
   }
 ]
