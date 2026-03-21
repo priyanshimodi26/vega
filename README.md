@@ -91,12 +91,12 @@ NSE price data (nsepy)    ──┘                              │
 ```
 vega/
 ├── pipeline/
-│   ├── scraper.py            # SEC EDGAR transcript fetcher
+│   ├── scraper.py            # BSE concall transcript fetcher
 │   ├── price_fetcher.py      # yfinance + abnormal return computation
 │   └── run_pipeline.py       # one-command orchestrator
 ├── models/
 │   ├── finbert_scorer.py     # sentence-level sentiment inference
-│   ├── zeroshot_classifier.py
+│   ├── guidance_classifier.py
 │   ├── risk_flagger.py       # MiniLM cosine similarity risk detection
 │   └── narrative_gen.py      # Gemini Flash analyst note generation
 ├── analysis/
