@@ -135,6 +135,7 @@ export GEMINI_API_KEY="your_key_here"
 python pipeline/run_pipeline.py
 
 # 6. Launch the dashboard
+python models/run_models.py
 python dashboard/app.py
 ```
 
@@ -155,6 +156,7 @@ python dashboard/app.py
 | Dashboard | Plotly Dash | Interactive web application |
 | Statistical analysis | statsmodels + scipy | OLS regression, p-values, confidence intervals |
 | Deployment | Render.com | Public live URL (free tier) |
+| Forward guidance | yya518/FinBERT-FLS | Forward-looking statement classification |
 
 ---
 
