@@ -14,9 +14,9 @@ and presentation. Every stage writes to SQLite so any stage can be re-run
 independently without reprocessing upstream data.
 
 ```
-BSE corporate filings ──┐
-                         ├──► [1] Ingestion ──► SQLite DB
-NSE price data (nsepy) ──┘         │
+NSE corporate filings  ──┐
+ (Selenium download)     ├──► [1] Ingestion ──► SQLite DB
+NSE price data (nsepy) ──┘          │
                                     │
                          ┌──────────▼──────────────────────┐
                          │      [2] NLP Signal Engine       │
@@ -52,15 +52,24 @@ Fetches earnings concall transcript PDFs from BSE corporate filings for
 a defined list of NIFTY 50 tickers. Parses and cleans the PDF text.
 Splits transcript into two sections. Stores everything in SQLite.
 
-**Data source:**
-BSE corporate filings API — Analyst/Investor Meet category.
-Endpoint pattern:
-```
-https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w
-  ?pageno=1
-  &category=Analysts%2FInvestors+Meet%2FConference+Call+Updates
-  &subcategory=-1
-  &scrip_cd={BSE_CODE}
+**Data source — two layer architecture:**
+
+Layer 1 — Static registry (pipeline/transcript_registry.json)
+Manually curated NSE filing URLs for 18 NIFTY 50 companies
+covering Q1FY24 through Q3FY26. Used for backtest. Stable
+and reproducible.
+
+Layer 2 — Dynamic discovery (pipeline/auto_discover.py)
+Selenium visits NSE announcements page per ticker, scrapes
+latest filing URLs, appends new entries to registry.
+Built on Day 15. Keeps dashboard current going forward.
+
+**PDF download method:**
+Selenium headless Chromium establishes a browser session
+on nseindia.com, extracts session cookies, then uses those
+cookies in a requests.Session() to download the PDF directly.
+Required because NSE/BSE block all non-browser server-side
+requests at infrastructure level.
 ```
 
 **Ticker universe — NIFTY 50 subset with reliable English transcripts:**
@@ -521,9 +530,10 @@ backtest_results            (derived from all above)
 ```
 vega/
 ├── pipeline/
-│   ├── scraper.py           BSE transcript fetcher + section splitter
+│   ├── scraper.py           NSE transcript fetcher + section splitter
 │   ├── price_fetcher.py     nsepy prices + abnormal returns + fundamentals
-│   └── run_pipeline.py      orchestrator (--ticker flag supported)
+│   ├── run_pipeline.py      orchestrator (--ticker flag supported)
+│   └── auto_discover.py     Day 15 — dynamic NSE URL discovery
 ├── models/
 │   ├── finbert_scorer.py    ProsusAI/FinBERT → 6 sentiment features
 │   ├── guidance_classifier.py  yya518/FinBERT-FLS → FLS ratio + top sentences
@@ -583,6 +593,11 @@ gunicorn
 # Utilities
 python-dotenv
 tqdm
+
+selenium
+webdriver-manager
+chromium-browser      # system package, not pip
+chromium-chromedriver # system package, not pip
 ```
 
 ---

@@ -36,7 +36,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 ## Methodology
 
 ### 1. Data collection
-Earnings concall transcripts are sourced from BSE corporate filings (Analyst / Investor Meet category). PDF transcripts are extracted using `pdfplumber`. Price data is fetched via `nsepy` for NSE-listed stocks. The universe covers NIFTY 50 companies with English concall transcripts — targeting 80–100 earnings events across sectors for the backtest.
+Earnings concall transcripts are sourced from NSE corporate filings (Analysts/Institutional Investor Meet/Con. Call Updates category) for 18 NIFTY 50 companies with consistent English transcript availability. A Selenium-based download pipeline handles NSE's infrastructure-level blocking of non-browser requests. The historical dataset covers Q1FY24 through Q3FY26 (~100 transcripts). A dynamic discovery layer (auto_discover.py) keeps the registry current as new quarters are filed.
 
 ### 2. NLP signal extraction
 Each transcript is processed through a three-layer NLP stack:
@@ -61,8 +61,8 @@ The composite score is regressed against 3-day abnormal returns (stock return mi
 ## Architecture
 
 ```
-BSE corporate filings     ──┐
-                            ├──► Scraper & parser ──► SQLite DB
+NSE corporate filings     ──┐
+(Selenium download)         ├──► Scraper & parser ──► SQLite DB
 NSE price data (nsepy)    ──┘                              │
                                                            ▼
                                            ┌─────────────────────────────┐
@@ -93,7 +93,8 @@ vega/
 ├── pipeline/
 │   ├── scraper.py            # BSE concall transcript fetcher
 │   ├── price_fetcher.py      # yfinance + abnormal return computation
-│   └── run_pipeline.py       # one-command orchestrator
+│   ├── run_pipeline.py       # one-command orchestrator
+│   └── auto_discover.py      # Day 15 — dynamic NSE URL discovery
 ├── models/
 │   ├── finbert_scorer.py     # sentence-level sentiment inference
 │   ├── guidance_classifier.py
@@ -157,6 +158,7 @@ python dashboard/app.py
 | Statistical analysis | statsmodels + scipy | OLS regression, p-values, confidence intervals |
 | Deployment | Render.com | Public live URL (free tier) |
 | Forward guidance | yya518/FinBERT-FLS | Forward-looking statement classification |
+| Browser automation | Selenium + Chromium | NSE filing download (bypasses infrastructure-level blocks) |
 
 ---
 
