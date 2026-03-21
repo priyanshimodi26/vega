@@ -48,7 +48,7 @@ NSE price data (nsepy) ──┘          │
 **File:** `pipeline/scraper.py`
 
 **What it does:**
-Fetches earnings concall transcript PDFs from BSE corporate filings for
+Fetches earnings concall transcript PDFs from NSE corporate filings for
 a defined list of NIFTY 50 tickers. Parses and cleans the PDF text.
 Splits transcript into two sections. Stores everything in SQLite.
 
@@ -74,11 +74,13 @@ requests at infrastructure level.
 
 **Ticker universe — NIFTY 50 subset with reliable English transcripts:**
 Focus on these sectors first (most consistent transcript availability):
-- IT: TCS (532540), Infosys (500209), Wipro (507685), HCL Tech (532281)
-- Banking: HDFC Bank (500180), ICICI Bank (532174), Kotak (500247), Axis (532215)
-- Consumer: HUL (500696), Asian Paints (500820)
-- Energy: Reliance (500325)
-- Telecom: Bharti Airtel (532454)
+- IT: TCS, INFY, WIPRO, HCLTECH, TECHM
+- Banking: HDFCBANK, ICICIBANK, KOTAKBANK, AXISBANK, SBIN
+- Consumer: HINDUNILVR, ASIANPAINT, NESTLEIND
+- Energy: RELIANCE
+- Telecom: BHARTIARTL
+- Automobile: MARUTI, TATAMOTORS
+- Pharma: SUNPHARMA, DRREDDY
 
 BSE codes are in parentheses — these are what the API expects, not NSE symbols.
 
@@ -124,10 +126,8 @@ CREATE TABLE IF NOT EXISTS transcripts (
 
 **Key implementation notes:**
 - Always check if (bse_code, earnings_date) already exists before fetching
-- Download PDF as bytes (`response.content`), pass directly to pdfplumber
-  without saving to disk — keeps the data/ folder clean
-- Rate limit: add 1–2 second sleep between BSE API calls to avoid blocks
-- Target: 6–8 quarters per company = ~80–100 transcripts total
+- NSE archive URLs
+- Achieved: 155 transcripts across 16 companies (Q1FY24–Q4FY26)
 
 ---
 
@@ -603,4 +603,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 1 complete.*
+Last updated: Day 2 complete. Scraper working, 155 transcripts in DB.*

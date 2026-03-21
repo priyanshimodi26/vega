@@ -6,7 +6,7 @@
 
 ## What is VEGA?
 
-Every quarter, executives at S&P 100 companies spend 60–90 minutes on earnings calls — choosing their words carefully. They hedge. They signal. They bury risk disclosures in subordinate clauses and front-load confidence where confidence may not be warranted.
+Every quarter, executives at NIFTY 50 companies spend 60–90 minutes on earnings calls — choosing their words carefully. They hedge. They signal. They bury risk disclosures in subordinate clauses and front-load confidence where confidence may not be warranted.
 
 VEGA is an NLP pipeline that reads those transcripts the way a quant analyst would — — extracting sentiment, forward guidance signals, and risk flags at scale — then tests whether those signals have statistically meaningful predictive power over 3-day abnormal stock returns for NIFTY 50 listed companies.
 
@@ -20,12 +20,14 @@ The output is a live, interactive dashboard where you can look up any covered co
 
 | Component | Status |
 |---|---|
-| Data ingestion (SEC EDGAR + yfinance) | 🔧 In progress |
-| FinBERT sentiment scorer | 🔧 In progress |
-| Zero-shot guidance classifier | 🔧 In progress |
-| Risk flag detector | 🔧 In progress |
-| Gemini Flash analyst note generator | 🔧 In progress |
-| Backtest (OLS regression) | ⏳ Pending |
+| Transcript scraper (NSE + Selenium) | ✅ Complete |
+| Transcript registry (155 transcripts, 16 companies) | ✅ Completes |
+| Price fetcher + abnormal returns | 🔧 In progress |
+| FinBERT sentiment scorer | ⏳ Pending |
+| FinBERT-FLS guidance classifier | ⏳ Pending |
+| Risk flagger (MiniLM + L-M word lists) | ⏳ Pending |
+| Gemini Flash narrative generator | ⏳ Pending |
+| Backtest (multi-dim OLS regression) | ⏳ Pending |
 | Plotly Dash dashboard | ⏳ Pending |
 | Deployment (Render.com) | ⏳ Pending |
 
@@ -36,14 +38,14 @@ The output is a live, interactive dashboard where you can look up any covered co
 ## Methodology
 
 ### 1. Data collection
-Earnings concall transcripts are sourced from NSE corporate filings (Analysts/Institutional Investor Meet/Con. Call Updates category) for 18 NIFTY 50 companies with consistent English transcript availability. A Selenium-based download pipeline handles NSE's infrastructure-level blocking of non-browser requests. The historical dataset covers Q1FY24 through Q3FY26 (~100 transcripts). A dynamic discovery layer (auto_discover.py) keeps the registry current as new quarters are filed.
+Earnings concall transcripts are sourced from NSE corporate filings (Analysts/Institutional Investor Meet/Con. Call Updates category) for 16 NIFTY 50 companies (KOTAKBANK and MARUTI pending) with consistent English transcript availability. A Selenium-based download pipeline handles NSE's infrastructure-level blocking of non-browser requests. The historical dataset covers Q1FY24 through Q3FY26 (~155 transcripts across 16 companies). A dynamic discovery layer (auto_discover.py) keeps the registry current as new quarters are filed.
 
 ### 2. NLP signal extraction
 Each transcript is processed through a three-layer NLP stack:
 
 - **Sentiment scoring** — [ProsusAI/FinBERT](https://huggingface.co/ProsusAI/finbert), a BERT model fine-tuned on financial news, scores each sentence as positive, negative, or neutral. Scores are aggregated into document-level uncertainty, positivity, and negativity percentages.
 
-- **Forward guidance classification** — Facebook's BART large MNLI model performs zero-shot classification, categorising sentences into: forward guidance, risk factor, competitive threat, operational update, and macro commentary. No labelled training data required.
+- **Forward guidance classification** — yya518/FinBERT-FLS, a FinBERT variant fine-tuned specifically on forward-looking statements, classifies sentences as forward-looking or not.
 
 - **Risk flag detection** — Sentence embeddings from `all-MiniLM-L6-v2` are used to compute cosine similarity against predefined risk signal anchors across 8 categories (liquidity risk, demand softness, margin compression, regulatory concern, and others).
 
@@ -94,6 +96,7 @@ vega/
 │   ├── scraper.py            # BSE concall transcript fetcher
 │   ├── price_fetcher.py      # yfinance + abnormal return computation
 │   ├── run_pipeline.py       # one-command orchestrator
+|   ├── transcript_registry.json
 │   └── auto_discover.py      # Day 15 — dynamic NSE URL discovery
 ├── models/
 │   ├── finbert_scorer.py     # sentence-level sentiment inference
@@ -134,6 +137,8 @@ export GEMINI_API_KEY="your_key_here"
 
 # 5. Run the pipeline
 python pipeline/run_pipeline.py
+# System dependencies (WSL/Ubuntu)
+sudo apt-get install -y chromium-browser chromium-chromedriver
 
 # 6. Launch the dashboard
 python models/run_models.py
@@ -147,12 +152,12 @@ python dashboard/app.py
 | Layer | Tool | Purpose |
 |---|---|---|
 | Sentiment model | ProsusAI/FinBERT | Finance-domain sentence sentiment |
-| Zero-shot classifier | facebook/bart-large-mnli | Guidance & risk category classification |
+| Forward guidance   | yya518/FinBERT-FLS | Fine-tuned forward-looking statement classifier |
 | Embeddings | all-MiniLM-L6-v2 | Risk flag cosine similarity |
 | Narrative generation | Google Gemini Flash | AI analyst note generation (free tier) |
 | Price data | nsepy | NSE/BSE historical OHLCV + abnormal return calculation |
-| Transcript source | BSE corporate filings | Official concall transcript PDFs |
-| PDF extraction | pdfplumber | Clean text extraction from concall PDF filings |
+| Transcript source  | NSE corporate filings (Analysts/Institutional Investor Meet) | SEBI-mandated concall transcript filings |
+| PDF download       | Selenium + Chromium + requests session | Bypasses NSE infrastructure-level blocks |
 | Storage | SQLite + pandas | Transcript, score, and narrative cache |
 | Dashboard | Plotly Dash | Interactive web application |
 | Statistical analysis | statsmodels + scipy | OLS regression, p-values, confidence intervals |
