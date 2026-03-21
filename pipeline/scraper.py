@@ -25,7 +25,7 @@ HEADERS = {
 }
 
 # ── Rate limiting ────────────────────────────────────────────────
-DELAY_BETWEEN_REQUESTS = 2  # seconds — be polite to IR websites
+DELAY_BETWEEN_REQUESTS = 4  # seconds — be polite to IR websites
 
 #Database Initialiser
 def init_db():
@@ -106,6 +106,7 @@ def download_pdf(url: str) -> BytesIO | None:
 
         # Wait for PDF to download (max 30 seconds)
         driver.get(url)
+        time.sleep(3)  # allow session to establish before cookie extraction
 
         # For direct PDF URLs, use CDP to fetch content as bytes directly
         import base64
