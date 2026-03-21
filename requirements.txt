@@ -13,3 +13,7 @@ statsmodels
 scipy
 nsepy
 pdfplumber
+gunicorn
+python-dotenv
+tqdm
+numpy
