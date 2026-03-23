@@ -8,7 +8,7 @@
 
 Every quarter, executives at NIFTY 50 companies spend 60–90 minutes on earnings calls — choosing their words carefully. They hedge. They signal. They bury risk disclosures in subordinate clauses and front-load confidence where confidence may not be warranted.
 
-VEGA is an NLP pipeline that reads those transcripts the way a quant analyst would — — extracting sentiment, forward guidance signals, and risk flags at scale — then tests whether those signals have statistically meaningful predictive power over 3-day abnormal stock returns for NIFTY 50 listed companies.
+VEGA is an NLP pipeline that reads those transcripts the way a quant analyst would — extracting sentiment, forward guidance signals, and risk flags at scale — then tests whether those signals have statistically meaningful predictive power over 3-day abnormal stock returns for NIFTY 50 listed companies.
 
 The output is a live, interactive dashboard where you can look up any covered company, see its earnings sentiment history, inspect flagged risk sentences, and read an AI-generated analyst note — all updated each earnings cycle.
 
@@ -21,8 +21,8 @@ The output is a live, interactive dashboard where you can look up any covered co
 | Component | Status |
 |---|---|
 | Transcript scraper (NSE + Selenium) | ✅ Complete |
-| Transcript registry (155 transcripts, 16 companies) | ✅ Completes |
-| Price fetcher + abnormal returns | 🔧 In progress |
+| Transcript registry (156 transcripts, 16 companies) | ✅ Complete |
+| Price fetcher + abnormal returns (yfinance) | ✅ Complete |
 | FinBERT sentiment scorer | ⏳ Pending |
 | FinBERT-FLS guidance classifier | ⏳ Pending |
 | Risk flagger (MiniLM + L-M word lists) | ⏳ Pending |
@@ -38,7 +38,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 ## Methodology
 
 ### 1. Data collection
-Earnings concall transcripts are sourced from NSE corporate filings (Analysts/Institutional Investor Meet/Con. Call Updates category) for 16 NIFTY 50 companies (KOTAKBANK and MARUTI pending) with consistent English transcript availability. A Selenium-based download pipeline handles NSE's infrastructure-level blocking of non-browser requests. The historical dataset covers Q1FY24 through Q3FY26 (~155 transcripts across 16 companies). A dynamic discovery layer (auto_discover.py) keeps the registry current as new quarters are filed.
+Earnings concall transcripts are sourced from NSE corporate filings (Analysts/Institutional Investor Meet/Con. Call Updates category) for 16 NIFTY 50 companies with consistent English transcript availability. A Selenium-based download pipeline handles NSE's infrastructure-level blocking of non-browser requests. The historical dataset covers Q1FY24 through Q4FY26 (~156 transcripts across 16 companies). A dynamic discovery layer (auto_discover.py) keeps the registry current as new quarters are filed. Price data and abnormal returns are computed via yfinance with beta-adjusted NIFTY 50 benchmark returns.
 
 ### 2. NLP signal extraction
 Each transcript is processed through a three-layer NLP stack:
@@ -63,27 +63,27 @@ The composite score is regressed against 3-day abnormal returns (stock return mi
 ## Architecture
 
 ```
-NSE corporate filings     ──┐
-(Selenium download)         ├──► Scraper & parser ──► SQLite DB
-NSE price data (nsepy)    ──┘                              │
-                                                           ▼
-                                           ┌─────────────────────────────┐
-                                           │      NLP Signal Engine      │
-                                           │  FinBERT · BART · MiniLM    │
-                                           │  Gemini Flash (narratives)  │
-                                           └──────────────┬──────────────┘
-                                                          │
-                                                          ▼
-                                                  Composite scorer
-                                                          │
-                                               ┌─────────────────────┐
-                                               │   OLS backtest      │
-                                               │   R² · p-value      │
-                                               └──────────┬──────────┘
-                                                          │
-                                                          ▼
-                                               Plotly Dash dashboard
-                                              [deployed on Render.com]
+NSE corporate filings        ──┐
+(Selenium download)            ├──► Scraper & parser ──► SQLite DB
+NSE price data (yfinance)    ──┘                              │
+                                                              ▼
+                                                 ┌────────────────────────────────┐
+                                                 │        NLP Signal Engine       │
+                                                 │ FinBERT · FinBERT-FLS · MiniLM │
+                                                 │    Gemini Flash (narratives)   │
+                                                 └──────────────┬─────────────────┘
+                                                                │
+                                                                ▼
+                                                         Composite scorer
+                                                                │
+                                                      ┌─────────────────────┐
+                                                      │   OLS backtest      │
+                                                      │   R² · p-value      │
+                                                      └──────────┬──────────┘
+                                                                 │
+                                                                 ▼
+                                                        Plotly Dash dashboard
+                                                       [deployed on Render.com]
 ```
 
 ---
@@ -93,7 +93,7 @@ NSE price data (nsepy)    ──┘                              │
 ```
 vega/
 ├── pipeline/
-│   ├── scraper.py            # BSE concall transcript fetcher
+│   ├── scraper.py            # NSE concall transcript fetcher (Selenium)
 │   ├── price_fetcher.py      # yfinance + abnormal return computation
 │   ├── run_pipeline.py       # one-command orchestrator
 |   ├── transcript_registry.json
@@ -129,18 +129,19 @@ cd vega
 python -m venv venv
 source venv/bin/activate
 
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Set your Gemini API key (free at aistudio.google.com)
-export GEMINI_API_KEY="your_key_here"
-
-# 5. Run the pipeline
-python pipeline/run_pipeline.py
-# System dependencies (WSL/Ubuntu)
+# 3. System dependencies (WSL/Ubuntu)
 sudo apt-get install -y chromium-browser chromium-chromedriver
 
-# 6. Launch the dashboard
+# 4. Install python dependencies
+pip install -r requirements.txt
+
+# 5. Set your Gemini API key (free at aistudio.google.com)
+export GEMINI_API_KEY="your_key_here"
+
+# 6. Run the pipeline
+python pipeline/run_pipeline.py
+
+# 7. Launch the dashboard
 python models/run_models.py
 python dashboard/app.py
 ```
@@ -155,15 +156,13 @@ python dashboard/app.py
 | Forward guidance   | yya518/FinBERT-FLS | Fine-tuned forward-looking statement classifier |
 | Embeddings | all-MiniLM-L6-v2 | Risk flag cosine similarity |
 | Narrative generation | Google Gemini Flash | AI analyst note generation (free tier) |
-| Price data | nsepy | NSE/BSE historical OHLCV + abnormal return calculation |
+| Price data | yfinance | NSE historical OHLCV + beta-adjusted abnormal returns |
 | Transcript source  | NSE corporate filings (Analysts/Institutional Investor Meet) | SEBI-mandated concall transcript filings |
 | PDF download       | Selenium + Chromium + requests session | Bypasses NSE infrastructure-level blocks |
 | Storage | SQLite + pandas | Transcript, score, and narrative cache |
 | Dashboard | Plotly Dash | Interactive web application |
 | Statistical analysis | statsmodels + scipy | OLS regression, p-values, confidence intervals |
 | Deployment | Render.com | Public live URL (free tier) |
-| Forward guidance | yya518/FinBERT-FLS | Forward-looking statement classification |
-| Browser automation | Selenium + Chromium | NSE filing download (bypasses infrastructure-level blocks) |
 
 ---
 
