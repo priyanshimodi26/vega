@@ -40,70 +40,6 @@
     "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02022026131104_SE_intimation_Transcript_Q3FY26_Jan2026_signed.pdf"
   },
   {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2024-01-30",
-    "fiscal_quarter": "Q4FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_30012024184605_Transcript.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2024-04-29",
-    "fiscal_quarter": "Q1FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_29042024190312_Transcript29042024.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2024-07-30",
-    "fiscal_quarter": "Q2FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_30072024162848_EarningCallTranscriptQ1FY25.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2024-10-23",
-    "fiscal_quarter": "Q3FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK_23102024210445_SEIntimationQ2FY25EarningsCallTranscriptSigned.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2025-01-22",
-    "fiscal_quarter": "Q4FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_22012025110554_SEIntimationQ3FY25EarningsCallTranscriptSigned.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2025-05-01",
-    "fiscal_quarter": "Q1FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_01052025172723_SEIntimationQ4FY25EarningsCallTranscriptSigdn.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2025-07-23",
-    "fiscal_quarter": "Q2FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_23072025222143_SEIntimationQ1FY26EarningsCallTranscriptSigned.pdf"
-  },
-  {
-    "ticker": "AXISBANK",
-    "bse_code": "532215",
-    "company_name": "Axis Bank Ltd",
-    "earnings_date": "2026-02-02",
-    "fiscal_quarter": "Q4FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_02022026222132_SEIntimationQ3FY26EarningsCallTranscriptSigned.pdf"
-  },
-  {
     "ticker": "BHARTIARTL",
     "bse_code": "532454",
     "company_name": "Bharti Airtel Ltd",
@@ -547,14 +483,6 @@
     "ticker": "HINDUNILVR",
     "bse_code": "500696",
     "company_name": "Hindustan Unilever Ltd",
-    "earnings_date": "2023-05-04",
-    "fiscal_quarter": "Q1FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_04052023231515_TranscriptofEarningsCall27042023signed.pdf"
-  },
-  {
-    "ticker": "HINDUNILVR",
-    "bse_code": "500696",
-    "company_name": "Hindustan Unilever Ltd",
     "earnings_date": "2023-07-26",
     "fiscal_quarter": "Q2FY24",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_26072023215826_TranscriptOfEarningsCall26072023.pdf"
@@ -582,14 +510,6 @@
     "earnings_date": "2024-04-30",
     "fiscal_quarter": "Q1FY25",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_30042024195431_TranscriptofEarningsCall24042024.pdf"
-  },
-  {
-    "ticker": "HINDUNILVR",
-    "bse_code": "500696",
-    "company_name": "Hindustan Unilever Ltd",
-    "earnings_date": "2024-07-29",
-    "fiscal_quarter": "Q2FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_29072024185157_SEIntimationEarningsCallTranscriptSigned.pdf"
   },
   {
     "ticker": "HINDUNILVR",
@@ -742,190 +662,6 @@
     "earnings_date": "2023-04-18",
     "fiscal_quarter": "Q1FY24",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/INFY_18042023205807_Transcripts_April132023.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2023-05-02",
-    "fiscal_quarter": "Q1FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_02052023191822_SEintimationTranscriptoftheEarningsConferenceCall29042023.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2023-07-26",
-    "fiscal_quarter": "Q2FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_26072023181304_SEintimationTranscriptoftheEarningsConferenceCall30062023.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2023-10-25",
-    "fiscal_quarter": "Q3FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_25102023195948_TranscriptBOct252023.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2024-01-25",
-    "fiscal_quarter": "Q4FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_25012024125434_TranscriptBMJan202024.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2024-05-09",
-    "fiscal_quarter": "Q1FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_09052024191410_SEintimationTranscriptoftheEarningsConferenceCall04052024_signed.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2024-07-26",
-    "fiscal_quarter": "Q2FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_26072024180751_Transcript_20072024_signed.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2024-10-24",
-    "fiscal_quarter": "Q3FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/KOTAKBANK_24102024174850_Transcript.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2025-05-08",
-    "fiscal_quarter": "Q1FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_08052025210658_TranscroptofearningMay032025.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2025-08-01",
-    "fiscal_quarter": "Q2FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_01082025202954_KMBLTranscriptofcall.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2025-10-30",
-    "fiscal_quarter": "Q3FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_30102025173715_SEintimationTranscriptoftheEarningsConferenceCall25102025.pdf"
-  },
-  {
-    "ticker": "KOTAKBANK",
-    "bse_code": "500247",
-    "company_name": "Kotak Mahindra Bank Ltd",
-    "earnings_date": "2026-01-30",
-    "fiscal_quarter": "Q4FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Kotakmahindrabank_30012026222638_TranscriptJanuary2026.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2023-05-04",
-    "fiscal_quarter": "Q1FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_04052023162241_Transcript.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2023-08-04",
-    "fiscal_quarter": "Q2FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_04082023155545_Transcript.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2023-11-02",
-    "fiscal_quarter": "Q3FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_02112023220422_Transcript.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2024-02-06",
-    "fiscal_quarter": "Q4FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_06022024183251_TranscriptQ3signed.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2024-05-03",
-    "fiscal_quarter": "Q1FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_03052024212206_Covering_Transcript_Q4_FY_2024_signed.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2024-08-06",
-    "fiscal_quarter": "Q2FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_06082024195539_Transcript_Q1_FY_2025.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2024-11-05",
-    "fiscal_quarter": "Q3FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_05112024211033_Transcript_initimation_Q2_FY_2024_25.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2025-02-04",
-    "fiscal_quarter": "Q4FY25",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_04022025201649_Intimation_Transacript_of_investors_call.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2025-05-01",
-    "fiscal_quarter": "Q1FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01052025095249_Transcript_25Apr2025.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2025-08-06",
-    "fiscal_quarter": "Q2FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_06082025224719_STxIntimation_Transcript31July2025.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2025-11-03",
-    "fiscal_quarter": "Q3FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf"
-  },
-  {
-    "ticker": "MARUTI",
-    "bse_code": "532500",
-    "company_name": "Maruti Suzuki India Ltd",
-    "earnings_date": "2026-02-02",
-    "fiscal_quarter": "Q4FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf"
   },
   {
     "ticker": "NESTLEIND",
@@ -1283,14 +1019,6 @@
     "ticker": "TCS",
     "bse_code": "532540",
     "company_name": "Tata Consultancy Services Ltd",
-    "earnings_date": "2025-04-12",
-    "fiscal_quarter": "Q1FY26",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_1204202517480_SEInt12042025TRsigned.pdf"
-  },
-  {
-    "ticker": "TCS",
-    "bse_code": "532540",
-    "company_name": "Tata Consultancy Services Ltd",
     "earnings_date": "2025-07-14",
     "fiscal_quarter": "Q2FY26",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14072025190635_SEint14172025_signed.pdf"
@@ -1422,14 +1150,6 @@
     "earnings_date": "2026-01-20",
     "fiscal_quarter": "Q4FY26",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_20012026173300_Signed_-_Intimation_Transacript_1.pdf"
-  },
-  {
-    "ticker": "WIPRO",
-    "bse_code": "507685",
-    "company_name": "Wipro Ltd",
-    "earnings_date": "2023-05-02",
-    "fiscal_quarter": "Q1FY24",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/WIPRO_02052023174330_Transcript_InvestorMeet.pdf"
   },
   {
     "ticker": "WIPRO",

@@ -126,7 +126,7 @@ def download_pdf(url: str) -> BytesIO | None:
             "Referer": "https://www.nseindia.com/"
         })
 
-        response = session.get(url, timeout=30)
+        response = session.get(url, timeout=60)
         if response.status_code == 200 and len(response.content) > 1000:
             size_kb = len(response.content) / 1024
             print(f"  [OK] Downloaded {size_kb:.1f} KB")
