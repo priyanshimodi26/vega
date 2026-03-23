@@ -159,3 +159,27 @@ VEGA's combination is novel along four dimensions simultaneously:
    guidance classification + fundamental controls in one regression
 
 No single prior paper combines all four. That is VEGA's contribution.
+
+---
+
+## Data pipeline findings (Days 2–3)
+
+**Transcript source:** NSE corporate filings via Selenium + cookie extraction.
+BSE and all company IR websites block server-side requests at infrastructure
+level. Selenium establishes a real browser session, extracts cookies, then
+uses those cookies in a requests.Session() to download PDFs. This approach
+succeeded for 156 of 167 attempted transcripts.
+
+**Excluded companies:**
+- MARUTI and KOTAKBANK file only cover letters with NSE — actual transcripts
+  are hosted on their own IR websites without consistent URL patterns.
+- AXISBANK, select HINDUNILVR and WIPRO quarters are scanned PDFs —
+  pdfplumber extracts 0 chars. Not recoverable without OCR.
+
+**Price data:** nsepy broken due to NSE SSL infrastructure changes. Replaced
+with yfinance (.NS suffix for NSE stocks, ^NSEI for NIFTY 50 benchmark).
+Beta estimated via 1-year rolling OLS regression of daily log returns.
+TATAMOTORS demerged Oct 2025 — mapped to TMPV.NS, ar_yoy unavailable.
+
+**Final dataset:** 156 transcripts × 156 abnormal return pairs, covering
+16 companies from Q1FY24 to Q4FY26.
