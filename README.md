@@ -23,7 +23,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 | Transcript scraper (NSE + Selenium) | ✅ Complete |
 | Transcript registry (156 transcripts, 16 companies) | ✅ Complete |
 | Price fetcher + abnormal returns (yfinance) | ✅ Complete |
-| FinBERT sentiment scorer | ⏳ Pending |
+| FinBERT sentiment scorer | ✅ Complete |
 | FinBERT-FLS guidance classifier | ⏳ Pending |
 | Risk flagger (MiniLM + L-M word lists) | ⏳ Pending |
 | Gemini Flash narrative generator | ⏳ Pending |

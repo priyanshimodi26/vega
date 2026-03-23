@@ -75,14 +75,12 @@ requests at infrastructure level.
 **Ticker universe — NIFTY 50 subset with reliable English transcripts:**
 Focus on these sectors first (most consistent transcript availability):
 - IT: TCS, INFY, WIPRO, HCLTECH, TECHM
-- Banking: HDFCBANK, ICICIBANK, KOTAKBANK, AXISBANK, SBIN
+- Banking: HDFCBANK, ICICIBANK, SBIN
 - Consumer: HINDUNILVR, ASIANPAINT, NESTLEIND
 - Energy: RELIANCE
 - Telecom: BHARTIARTL
 - Automobile: MARUTI, TATAMOTORS
 - Pharma: SUNPHARMA, DRREDDY
-
-BSE codes are in parentheses — these are what the API expects, not NSE symbols.
 
 **PDF parsing approach:**
 Use `pdfplumber` to extract text page by page. Concall transcripts from
@@ -568,9 +566,8 @@ vega/
 ```
 # Core data
 requests
-beautifulsoup4
 pdfplumber
-nsepy
+yfinance
 pandas
 numpy
 
@@ -605,4 +602,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 3 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed.*
+Last updated: Day 4 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed. FinBERT Scorer complete, sentiment_scores table populated.*
