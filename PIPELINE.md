@@ -139,7 +139,7 @@ Fetches historical OHLCV price data for each ticker using nsepy. Computes
 two abnormal return windows per earnings event. Fetches year-on-year
 earnings variables from Screener.in as fundamental controls.
 
-**Price data source:** nsepy (NSE historical data)
+**Price data source:** yfinance (`.NS` suffix for NSE stocks, `^NSEI` for NIFTY 50 benchmark)
 **Fundamental controls source:** Screener.in company financials page
   (HTML scrape — no official API, but structured and stable)
 
@@ -154,6 +154,8 @@ Compute for two windows per earnings event:
 
 Beta estimation: rolling 252-day OLS regression of stock returns on
 NIFTY 50 returns, computed fresh for each earnings event.
+Note: nsepy was originally planned but is broken due to NSE SSL infrastructure
+changes. yfinance is the working replacement.
 
 **Fundamental controls (from Screener.in):**
 - `rev_yoy`: revenue year-on-year % change for that quarter
@@ -603,4 +605,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 2 complete. Scraper working, 155 transcripts in DB.*
+Last updated: Day 3 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed.*
