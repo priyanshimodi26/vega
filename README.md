@@ -24,8 +24,8 @@ The output is a live, interactive dashboard where you can look up any covered co
 | Transcript registry (156 transcripts, 16 companies) | ✅ Complete |
 | Price fetcher + abnormal returns (yfinance) | ✅ Complete |
 | FinBERT sentiment scorer | ✅ Complete |
-| FinBERT-FLS guidance classifier | ⏳ Pending |
-| Risk flagger (MiniLM + L-M word lists) | ⏳ Pending |
+| FinBERT-FLS guidance classifier | ✅ Complete |
+| Risk flagger (MiniLM + L-M word lists) | ✅ Complete |
 | Gemini Flash narrative generator | ⏳ Pending |
 | Backtest (multi-dim OLS regression) | ⏳ Pending |
 | Plotly Dash dashboard | ⏳ Pending |
@@ -45,9 +45,9 @@ Each transcript is processed through a three-layer NLP stack:
 
 - **Sentiment scoring** — [ProsusAI/FinBERT](https://huggingface.co/ProsusAI/finbert), a BERT model fine-tuned on financial news, scores each sentence as positive, negative, or neutral. Scores are aggregated into document-level uncertainty, positivity, and negativity percentages.
 
-- **Forward guidance classification** — yya518/FinBERT-FLS, a FinBERT variant fine-tuned specifically on forward-looking statements, classifies sentences as forward-looking or not.
+- **Forward guidance classification** — [yiyanghkust/finbert-fls](https://huggingface.co/yiyanghkust/finbert-fls), a FinBERT variant fine-tuned specifically on forward-looking statements, classifies sentences as Specific FLS, Non-specific FLS, or Not FLS.
 
-- **Risk flag detection** — Sentence embeddings from `all-MiniLM-L6-v2` are used to compute cosine similarity against predefined risk signal anchors across 8 categories (liquidity risk, demand softness, margin compression, regulatory concern, and others).
+- **Risk flag detection** — Sentence embeddings from `all-MiniLM-L6-v2` compute cosine similarity against predefined risk signal anchors across 8 categories. Additionally, Loughran-McDonald financial word lists provide 5 lexical features (uncertainty, litigious, weak modal, strong modal, extreme positive) normalised by transcript length.
 
 ### 3. Narrative generation
 Google Gemini Flash (free tier) generates a structured three-section analyst note per transcript: management tone, forward guidance summary, and top risk signal. Outputs are cached in SQLite to avoid redundant API calls.
@@ -155,6 +155,7 @@ python dashboard/app.py
 | Sentiment model | ProsusAI/FinBERT | Finance-domain sentence sentiment |
 | Forward guidance   | yya518/FinBERT-FLS | Fine-tuned forward-looking statement classifier |
 | Embeddings | all-MiniLM-L6-v2 | Risk flag cosine similarity |
+| Lexical features | Loughran-McDonald dictionary | Financial word list counts (uncertainty, litigious, modal words) |
 | Narrative generation | Google Gemini Flash | AI analyst note generation (free tier) |
 | Price data | yfinance | NSE historical OHLCV + beta-adjusted abnormal returns |
 | Transcript source  | NSE corporate filings (Analysts/Institutional Investor Meet) | SEBI-mandated concall transcript filings |

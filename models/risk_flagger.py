@@ -44,7 +44,7 @@ LM_COLUMN_ALIASES = {
     "litigious":        ["Litigious",        "LITIGIOUS"],
     "strong_modal":     ["Strong_Modal",     "StrongModal",  "STRONG_MODAL"],
     "weak_modal":       ["Weak_Modal",       "WeakModal",    "WEAK_MODAL"],
-    "extreme_positive": ["Positive",         "POSITIVE"],   # L-M "Positive" ≈ overconfident/extreme
+    "extreme_positive": ["Positive", "POSITIVE"],   # L-M "Positive" ≈ overconfident/extreme
 }
 
 # Minimum sentence length to consider for MiniLM (chars)

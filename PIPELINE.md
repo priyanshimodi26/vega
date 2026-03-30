@@ -267,8 +267,8 @@ Classifies each sentence as forward-looking or not using FinBERT-FLS.
 Extracts the top forward-looking sentences from each section.
 Produces a guidance_score (ratio of FLS sentences) per transcript.
 
-**Model:** `yya518/FinBERT-fls` (HuggingFace)
-**Task:** Binary classification → "forward looking" / "not forward looking"
+**Model:** `yiyanghkust/finbert-fls` (HuggingFace)
+**Task:** Three-class classification → "Specific FLS" / "Non-specific FLS" / "Not FLS" per sentence
 
 **Why FinBERT-FLS over BART zero-shot:**
 FinBERT-FLS is a supervised model fine-tuned specifically on forward-
@@ -283,6 +283,7 @@ general models by 9.7–12.3% on financial classification.
 - `fls_ratio_qa`: ratio of FLS sentences in Q&A
 - `top_fls_sentences`: JSON list of top 5 forward-looking sentences
   (stored as text, used in dashboard transcript viewer)
+- `specific_fls_ratio`: ratio of Specific FLS sentences (concrete guidance) across both sections
 
 **SQLite schema — guidance_scores table:**
 ```sql
@@ -536,7 +537,7 @@ vega/
 │   └── auto_discover.py     Day 15 — dynamic NSE URL discovery
 ├── models/
 │   ├── finbert_scorer.py    ProsusAI/FinBERT → 6 sentiment features
-│   ├── guidance_classifier.py  yya518/FinBERT-FLS → FLS ratio + top sentences
+│   ├── guidance_classifier.py  yiyanghkust/finbert-fls → FLS ratio + top sentences
 │   ├── risk_flagger.py      MiniLM + Loughran-McDonald → 13 risk features
 │   ├── narrative_gen.py     Gemini Flash → cached analyst note
 │   └── run_models.py        orchestrator (--model flag supported)
@@ -602,4 +603,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 4 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed. FinBERT Scorer complete, sentiment_scores table populated.*
+Last updated: Day 6 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed. FinBERT Scorer complete, sentiment_scores table populated. FinBERT-FLS guidance classifier complete, guidance_scores table populated. Risk flagger complete, risk_scores table populated.*
