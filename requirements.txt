@@ -4,7 +4,7 @@ pandas
 requests
 plotly
 dash
-google-generativeai
+google-genai
 scikit-learn
 sentence-transformers
 statsmodels
