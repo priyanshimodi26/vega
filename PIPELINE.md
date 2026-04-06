@@ -608,4 +608,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 7 complete. Scraper: 156 transcripts. Price fetcher: 156 abnormal return pairs. FinBERT scorer: 156 scored. Guidance classifier: 156 classified. Risk flagger: 156 scored. Narrative generator: 13/156 cached (running daily due to quota).*
+Last updated: Day 8 complete. Scraper: 156 transcripts. Price fetcher: 156 abnormal return pairs. FinBERT scorer: 156 scored. Guidance classifier: 156 classified. Risk flagger: 156 scored. Narrative generator: 22/156 cached (running daily due to quota).*
