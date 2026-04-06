@@ -26,7 +26,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 | FinBERT sentiment scorer | ✅ Complete |
 | FinBERT-FLS guidance classifier | ✅ Complete |
 | Risk flagger (MiniLM + L-M word lists) | ✅ Complete |
-| Gemini Flash narrative generator | ⏳ Pending |
+| Gemini Flash narrative generator | 🔧 In progress (13/156 cached, daily quota limit) |
 | Backtest (multi-dim OLS regression) | ⏳ Pending |
 | Plotly Dash dashboard | ⏳ Pending |
 | Deployment (Render.com) | ⏳ Pending |
@@ -50,7 +50,7 @@ Each transcript is processed through a three-layer NLP stack:
 - **Risk flag detection** — Sentence embeddings from `all-MiniLM-L6-v2` compute cosine similarity against predefined risk signal anchors across 8 categories. Additionally, Loughran-McDonald financial word lists provide 5 lexical features (uncertainty, litigious, weak modal, strong modal, extreme positive) normalised by transcript length.
 
 ### 3. Narrative generation
-Google Gemini Flash (free tier) generates a structured three-section analyst note per transcript: management tone, forward guidance summary, and top risk signal. Outputs are cached in SQLite to avoid redundant API calls.
+Google Gemini 2.5 Flash generates a structured three-section analyst note per transcript: management tone, forward guidance summary, and top risk signal. Outputs are cached in SQLite using a SHA-256 hash of the transcript as the cache key — the API is called exactly once per transcript ever, regardless of pipeline re-runs.
 
 ### 4. Composite signal score
 Sentiment percentages, guidance tone, and risk flag intensities are combined into a single composite score per earnings event. The weighting scheme is documented in `analysis/backtest.py`.
@@ -153,7 +153,7 @@ python dashboard/app.py
 | Layer | Tool | Purpose |
 |---|---|---|
 | Sentiment model | ProsusAI/FinBERT | Finance-domain sentence sentiment |
-| Forward guidance   | yya518/FinBERT-FLS | Fine-tuned forward-looking statement classifier |
+| Forward guidance   | yiyanghkust/finbert-fls | Fine-tuned forward-looking statement classifier |
 | Embeddings | all-MiniLM-L6-v2 | Risk flag cosine similarity |
 | Lexical features | Loughran-McDonald dictionary | Financial word list counts (uncertainty, litigious, modal words) |
 | Narrative generation | Google Gemini Flash | AI analyst note generation (free tier) |

@@ -382,7 +382,7 @@ Calls Google Gemini Flash API to generate a structured 3-section analyst
 note per transcript. Results are cached in SQLite — API is only called
 once per transcript ever.
 
-**Model:** Google Gemini 1.5 Flash (free tier: 1,500 req/day)
+**Model:** gemini-2.5-flash via google-genai SDK (free tier: 20 req/day per model)
 
 **Prompt structure:**
 Instructs the model to produce exactly three sections:
@@ -403,6 +403,11 @@ CREATE TABLE IF NOT EXISTS narratives (
     model            TEXT NOT NULL,
     generated_at     TEXT NOT NULL
 )
+
+**Note on quota:** gemini-2.5-flash has a 20 req/day free tier limit. Run
+`python models/narrative_gen.py` daily until all 156 narratives are cached.
+Already-cached narratives are skipped automatically via SHA-256 hash lookup.
+The deprecated google-generativeai package has been replaced with google-genai.
 ```
 
 ---
@@ -603,4 +608,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 6 complete. Scraper working, 156 transcripts in DB. Price fetcher complete, 156 abnormal return pairs computed. FinBERT Scorer complete, sentiment_scores table populated. FinBERT-FLS guidance classifier complete, guidance_scores table populated. Risk flagger complete, risk_scores table populated.*
+Last updated: Day 7 complete. Scraper: 156 transcripts. Price fetcher: 156 abnormal return pairs. FinBERT scorer: 156 scored. Guidance classifier: 156 classified. Risk flagger: 156 scored. Narrative generator: 13/156 cached (running daily due to quota).*
