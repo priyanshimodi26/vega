@@ -2,6 +2,7 @@
 
 > *Do concall transcripts of NIFTY 50 companies contain predictive signals about short-term price movements? VEGA is built to find out.*
 
+**🔗 Live dashboard: https://vega-dashboard.onrender.com**
 ---
 
 ## What is VEGA?
@@ -28,8 +29,8 @@ The output is a live, interactive dashboard where you can look up any covered co
 | Risk flagger (MiniLM + L-M word lists) | ✅ Complete |
 | Gemini Flash narrative generator | 🔧 In progress (23/156 cached, daily quota limit) |
 | Backtest (multi-dim OLS regression) | ✅ Complete |
-| Plotly Dash dashboard | ⏳ Pending |
-| Deployment (Render.com) | ⏳ Pending |
+| Plotly Dash dashboard | ✅ Complete |
+| Deployment (Render.com) | ✅ Live — https://vega-dashboard.onrender.com |
 
 **Key findings (NLP-only OLS regression, n=155 earnings events):**
 - ar_3d R² = 0.130 (p=0.014) — NLP signals explain 13% of 3-day abnormal return variance
