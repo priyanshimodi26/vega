@@ -83,6 +83,10 @@ RISK_LABELS = {
 }
 
 # ── Import layout and callbacks after app is defined ─────────────
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
 from layout import create_layout
 from callbacks import register_callbacks
 
