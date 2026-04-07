@@ -608,4 +608,4 @@ chromium-chromedriver # system package, not pip
 ---
 
 *This document is updated as the build progresses.
-Last updated: Day 9 complete. Scraper: 156 transcripts. Price fetcher: 156 abnormal return pairs. FinBERT scorer: 156 scored. Guidance classifier: 156 classified. Risk flagger: 156 scored. Narrative generator: 23/156 cached (running daily due to quota). Backtesting complete. OLS backtest — ar_3d R²=0.130 (p=0.014), ar_yoy R²=0.155 (p=0.004), specific_fls and lm_extreme_positive significant*
+Last updated: Day 10 complete. Scraper: 156 transcripts. Price fetcher: 156 abnormal return pairs. FinBERT scorer: 156 scored. Guidance classifier: 156 classified. Risk flagger: 156 scored. Narrative generator: 23/156 cached (running daily due to quota). Backtesting complete. OLS backtest — ar_3d R²=0.130 (p=0.014), ar_yoy R²=0.155 (p=0.004), specific_fls and lm_extreme_positive significant. Plotly Dash dashboard made.*
