@@ -26,12 +26,16 @@ The output is a live, interactive dashboard where you can look up any covered co
 | FinBERT sentiment scorer | ✅ Complete |
 | FinBERT-FLS guidance classifier | ✅ Complete |
 | Risk flagger (MiniLM + L-M word lists) | ✅ Complete |
-| Gemini Flash narrative generator | 🔧 In progress (13/156 cached, daily quota limit) |
-| Backtest (multi-dim OLS regression) | ⏳ Pending |
+| Gemini Flash narrative generator | 🔧 In progress (23/156 cached, daily quota limit) |
+| Backtest (multi-dim OLS regression) | ✅ Complete |
 | Plotly Dash dashboard | ⏳ Pending |
 | Deployment (Render.com) | ⏳ Pending |
 
-*Results and key findings will be added here as the backtest is completed.*
+**Key findings (NLP-only OLS regression, n=155 earnings events):**
+- ar_3d R² = 0.130 (p=0.014) — NLP signals explain 13% of 3-day abnormal return variance
+- ar_yoy R² = 0.155 (p=0.004) — NLP signals explain 15.5% of year-on-year abnormal return variance
+- Specific forward guidance ratio (p=0.024) and extreme positive language (p=0.003) are the strongest individual predictors
+- Overconfident language predicts lower returns — consistent with Larcker & Zakolyukina (2012)
 
 ---
 
