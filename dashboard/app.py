@@ -94,4 +94,4 @@ app.layout = create_layout(TICKERS)
 register_callbacks(app, DF, NARRATIVES, TICKERS, RISK_CATEGORIES, RISK_LABELS)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(host="0.0.0.0", port=7860, debug=False)
