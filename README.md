@@ -27,7 +27,7 @@ The output is a live, interactive dashboard where you can look up any covered co
 | FinBERT sentiment scorer | ✅ Complete |
 | FinBERT-FLS guidance classifier | ✅ Complete |
 | Risk flagger (MiniLM + L-M word lists) | ✅ Complete |
-| Gemini Flash narrative generator | 🔧 In progress (44/156 cached, daily quota limit) |
+| Gemini Flash narrative generator | 🔧 In progress (70/156 cached, daily quota limit) |
 | Backtest (multi-dim OLS regression) | ✅ Complete |
 | Plotly Dash dashboard | ✅ Complete |
 | Deployment (Render.com) | ✅ Live — https://vega-dashboard.onrender.com |
