@@ -1,3 +1,13 @@
+---
+title: Vega
+emoji: 📈
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # VEGA — Volatility & Earnings Guidance Analyzer
 
 > *Do concall transcripts of NIFTY 50 companies contain predictive signals about short-term price movements? VEGA is built to find out.*
